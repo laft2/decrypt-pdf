@@ -1,0 +1,19 @@
+[project]
+name = "decrypt-pdf"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "laft2", email = "44256206+laft2@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "pypdf>=6.0.0",
+]
+
+[project.scripts]
+decrypt-pdf = "decrypt_pdf.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

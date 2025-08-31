@@ -21,3 +21,6 @@ options:
   -h, --help            show this help message and exit
   -o, --dist-path DIST_PATH
                         distination path, this is source_path + _decrypted.pdf as default
+
+## Acknowledgements
+このツールは [pypdf](https://github.com/py-pdf/pypdf) (BSD License) を利用しています。

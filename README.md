@@ -9,6 +9,7 @@ $ uv tool install git+https://github.com/laft2/decrypt-pdf
 ```
 
 ## Usage
+```
 usage: decrypt-pdf [-h] [-o DIST_PATH] source_path password
 
 decrypt a pdf file you know its password
@@ -21,6 +22,8 @@ options:
   -h, --help            show this help message and exit
   -o, --dist-path DIST_PATH
                         distination path, this is source_path + _decrypted.pdf as default
+```
 
 ## Acknowledgements
 このツールは [pypdf](https://github.com/py-pdf/pypdf) (BSD License) を利用しています。
+
